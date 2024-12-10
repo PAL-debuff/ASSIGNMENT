@@ -1,6 +1,39 @@
-[gd_scene load_steps=2 format=3 uid="uid://70pbhqijdbp"]
+[gd_scene load_steps=8 format=3 uid="uid://70pbhqijdbp"]
 
-[ext_resource type="Script" path="res://ASSIGNMENT/main_menu.gd" id="1_4rpdg"]
+[ext_resource type="FontFile" uid="uid://dxp43k1srst8x" path="res://Spritecoder_Regular.ttf" id="1_ikp3s"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5gm78"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i7tvu"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_linad"]
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7eyhe"]
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 6
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vapeh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cnih7"]
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 6
 
 [node name="Main Menu" type="Control"]
 layout_mode = 3
@@ -11,7 +44,6 @@ offset_top = -2.0
 offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_4rpdg")
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 1
@@ -26,14 +58,54 @@ layout_mode = 2
 theme_override_constants/separation = 20
 
 [node name="Play buttton" type="Button" parent="CenterContainer/VBoxContainer"]
-custom_minimum_size = Vector2(120, 0)
+custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_ikp3s")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/focus = SubResource("StyleBoxEmpty_5gm78")
+theme_override_styles/hover = SubResource("StyleBoxFlat_i7tvu")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_linad")
+theme_override_styles/normal = SubResource("StyleBoxFlat_7eyhe")
 text = "Play"
 
 [node name="Quit button" type="Button" parent="CenterContainer/VBoxContainer"]
-custom_minimum_size = Vector2(120, 0)
+custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_ikp3s")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/focus = SubResource("StyleBoxEmpty_vapeh")
+theme_override_styles/hover = SubResource("StyleBoxFlat_i7tvu")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_linad")
+theme_override_styles/normal = SubResource("StyleBoxFlat_cnih7")
 text = "Quit"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -198.0
+offset_top = -212.0
+offset_right = 196.0
+offset_bottom = -91.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 8
+theme_override_constants/shadow_offset_y = 5
+theme_override_fonts/font = ExtResource("1_ikp3s")
+theme_override_font_sizes/font_size = 50
+text = "Ninja Adventure"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Play buttton" to="." method="_on_play_buttton_pressed"]
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Quit button" to="." method="_on_quit_button_pressed"]
