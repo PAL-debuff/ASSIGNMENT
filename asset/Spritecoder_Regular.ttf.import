@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://h51wa3eihr5n"
-path="res://.godot/imported/Winter Minie.ttf-21d97ecb18811bfc9eca06ecf21b98ed.fontdata"
+uid="uid://dxp43k1srst8x"
+path="res://.godot/imported/Spritecoder_Regular.ttf-ce60d966e9725ddb00802147e64159a3.fontdata"
 
 [deps]
 
-source_file="res://ASSIGNMENT/main_menu/Winter Minie.ttf"
-dest_files=["res://.godot/imported/Winter Minie.ttf-21d97ecb18811bfc9eca06ecf21b98ed.fontdata"]
+source_file="res://ASSIGNMENT/asset/Spritecoder_Regular.ttf"
+dest_files=["res://.godot/imported/Spritecoder_Regular.ttf-ce60d966e9725ddb00802147e64159a3.fontdata"]
 
 [params]
 
