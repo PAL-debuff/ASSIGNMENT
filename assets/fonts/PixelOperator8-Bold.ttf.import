@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://dxp43k1srst8x"
-path="res://.godot/imported/Spritecoder_Regular.ttf-ce60d966e9725ddb00802147e64159a3.fontdata"
+uid="uid://ds32mua376cmq"
+path="res://.godot/imported/PixelOperator8-Bold.ttf-0ce1fee4e883655853712af48794c723.fontdata"
 
 [deps]
 
-source_file="res://ASSIGNMENT/asset/Spritecoder_Regular.ttf"
-dest_files=["res://.godot/imported/Spritecoder_Regular.ttf-ce60d966e9725ddb00802147e64159a3.fontdata"]
+source_file="res://ASSIGNMENT/assets/fonts/PixelOperator8-Bold.ttf"
+dest_files=["res://.godot/imported/PixelOperator8-Bold.ttf-0ce1fee4e883655853712af48794c723.fontdata"]
 
 [params]
 

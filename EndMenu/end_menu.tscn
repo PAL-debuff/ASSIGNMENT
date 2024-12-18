@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=3 uid="uid://40wlwfp4up28"]
+
+[ext_resource type="Script" path="res://ASSIGNMENT/EndMenu/end_menu.gd" id="1_say12"]
+
+[node name="EndMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_say12")
+
+[node name="Panel" type="Panel" parent="."]
+modulate = Color(0.517184, 0.517184, 0.517184, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/CenterContainer"]
+layout_mode = 2
+
+[node name="RestartButton" type="Button" parent="Panel/CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "Restart"
+
+[node name="BackButton2" type="Button" parent="Panel/CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "Back to Menu"
+
+[node name="QuitButton3" type="Button" parent="Panel/CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "Quit"
+
+[connection signal="pressed" from="Panel/CenterContainer/VBoxContainer/RestartButton" to="." method="_on_restart_button_pressed"]
+[connection signal="pressed" from="Panel/CenterContainer/VBoxContainer/BackButton2" to="." method="_on_back_button_2_pressed"]
+[connection signal="pressed" from="Panel/CenterContainer/VBoxContainer/QuitButton3" to="." method="_on_quit_button_3_pressed"]

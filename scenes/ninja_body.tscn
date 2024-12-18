@@ -1,0 +1,68 @@
+[gd_scene load_steps=7 format=3 uid="uid://cl7pas7h4tffr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8m1kb"]
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t4a2x"]
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cnxbh"]
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mrhpj"]
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_flgc8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8m1kb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": true,
+"name": &"jumping",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t4a2x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cnxbh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mrhpj")
+}],
+"loop": true,
+"name": &"running",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xnkdx"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(216, -12)
+scale = Vector2(3.30875, 3.0525)
+sprite_frames = SubResource("SpriteFrames_flgc8")
+animation = &"running"
+autoplay = "default"
+frame_progress = 0.0148973
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(40, 31)
+shape = SubResource("RectangleShape2D_xnkdx")

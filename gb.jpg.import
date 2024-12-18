@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dflik0aqdxp8"
-path="res://.godot/imported/Terrain (16x16).png-0a553b417cb67ccdd174db4944bb5deb.ctex"
+uid="uid://8rnk4rewyqv0"
+path="res://.godot/imported/gb.jpg-a20b1bf9b6ebc2509f5e4394ab1cfadf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ASSIGNMENT/asset/Terrain (16x16).png"
-dest_files=["res://.godot/imported/Terrain (16x16).png-0a553b417cb67ccdd174db4944bb5deb.ctex"]
+source_file="res://ASSIGNMENT/gb.jpg"
+dest_files=["res://.godot/imported/gb.jpg-a20b1bf9b6ebc2509f5e4394ab1cfadf.ctex"]
 
 [params]
 
