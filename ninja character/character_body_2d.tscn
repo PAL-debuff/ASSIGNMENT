@@ -1,0 +1,50 @@
+[gd_scene load_steps=8 format=3 uid="uid://dy1v4ejeur781"]
+
+[ext_resource type="Script" path="res://character/character_body_2d.gd" id="1_a4eq8"]
+[ext_resource type="Texture2D" uid="uid://dnitdtukt63ho" path="res://jump.png" id="1_bdcm6"]
+[ext_resource type="Texture2D" uid="uid://bu6tjwh4tvn2w" path="res://running 2.png" id="1_hpugo"]
+[ext_resource type="Texture2D" uid="uid://bjr57kulxml74" path="res://stand still.png" id="1_wobhk"]
+[ext_resource type="Texture2D" uid="uid://covyjifvw5ho4" path="res://running.png" id="2_scepm"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_43m02"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_bdcm6")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_wobhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_hpugo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_scepm")
+}],
+"loop": true,
+"name": &"running",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_a3g47"]
+
+[node name="ninja" type="CharacterBody2D"]
+script = ExtResource("1_a4eq8")
+
+[node name="animation" type="AnimatedSprite2D" parent="."]
+process_mode = 3
+texture_filter = 1
+position = Vector2(56, 73)
+scale = Vector2(1.4, 1.62)
+sprite_frames = SubResource("SpriteFrames_43m02")
+animation = &"running"
+autoplay = "running"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(36, 40)
+shape = SubResource("CapsuleShape2D_a3g47")
