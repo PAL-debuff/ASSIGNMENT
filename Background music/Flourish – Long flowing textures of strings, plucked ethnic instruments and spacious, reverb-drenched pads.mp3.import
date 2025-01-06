@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2ie2tw7e3yrc"
+path="res://.godot/imported/Flourish – Long flowing textures of strings, plucked ethnic instruments and spacious, reverb-drenched pads.mp3-c6578ead16bc14a87b606e323ce5350b.mp3str"
+
+[deps]
+
+source_file="res://Background music/Flourish – Long flowing textures of strings, plucked ethnic instruments and spacious, reverb-drenched pads.mp3"
+dest_files=["res://.godot/imported/Flourish – Long flowing textures of strings, plucked ethnic instruments and spacious, reverb-drenched pads.mp3-c6578ead16bc14a87b606e323ce5350b.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
