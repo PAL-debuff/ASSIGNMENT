@@ -1,0 +1,44 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+<<<<<<< HEAD:main_menu/Winter Minie.ttf.import
+uid="uid://h51wa3eihr5n"
+path="res://.godot/imported/Winter Minie.ttf-884b4c0964a965885f202fed9e2515cf.fontdata"
+
+[deps]
+
+source_file="res://main_menu/Winter Minie.ttf"
+dest_files=["res://.godot/imported/Winter Minie.ttf-884b4c0964a965885f202fed9e2515cf.fontdata"]
+=======
+uid="uid://cybswvwihg5dx"
+path="res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/PixelOperator8.ttf"
+dest_files=["res://.godot/imported/PixelOperator8.ttf-6f9f01766aff16f52046b880ffb8d367.fontdata"]
+>>>>>>> 1266cbb034f5c64b5efd0296f87018a01ed716ed:game-project-2/assets/fonts/PixelOperator8.ttf.import
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+disable_embedded_bitmaps=true
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+hinting=1
+subpixel_positioning=1
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}

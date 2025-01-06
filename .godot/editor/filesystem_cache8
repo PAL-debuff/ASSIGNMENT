@@ -1,0 +1,50 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1736186548
+background.jpg::CompressedTexture2D::5473439520808952756::1736186548::1736187711::1::::<><>::
+gb.jpg::CompressedTexture2D::3555550658108469975::1736186548::1736187711::1::::<><>::
+::res://assets/::1736186548
+::res://assets/fonts/::1736186548
+PixelOperator8-Bold.ttf::FontFile::8482125653792291752::1736186548::1736187711::1::::<><>::
+PixelOperator8.ttf::FontFile::6460571323137901717::1736186548::1736187711::1::::<><>::
+Spritecoder_Regular.ttf::FontFile::8806382482324211365::1736186548::1736187711::1::::<><>::
+::res://assets/music/::1736186548
+time_for_adventure.mp3::AudioStreamMP3::5956385196673007934::1736186548::1736187711::1::::<><>::
+::res://assets/sounds/::1736186548
+coin.wav::AudioStreamWAV::5453359204685624070::1736186548::1736187711::1::::<><>::
+explosion.wav::AudioStreamWAV::7710377483201955965::1736186548::1736187711::1::::<><>::
+hurt.wav::AudioStreamWAV::3944959447176747201::1736186548::1736187711::1::::<><>::
+jump.wav::AudioStreamWAV::5877943228358316675::1736186548::1736187711::1::::<><>::
+power_up.wav::AudioStreamWAV::2644301964492060129::1736186548::1736187711::1::::<><>::
+tap.wav::AudioStreamWAV::946354737380701444::1736186548::1736187711::1::::<><>::
+::res://assets/sprites/::1736186548
+coin.png::CompressedTexture2D::2868627774976711461::1736186548::1736187711::1::::<><>::
+fruit.png::CompressedTexture2D::7607405323852929840::1736186548::1736187711::1::::<><>::
+knight.png::CompressedTexture2D::3614320057898274323::1736186548::1736187711::1::::<><>::
+platforms.png::CompressedTexture2D::7348435473491579769::1736186548::1736187711::1::::<><>::
+slime_green.png::CompressedTexture2D::1770484647494773390::1736186548::1736187711::1::::<><>::
+slime_purple.png::CompressedTexture2D::8035813774290215347::1736186548::1736187711::1::::<><>::
+world_tileset.png::CompressedTexture2D::2744077572250050308::1736186548::1736187711::1::::<><>::
+::res://Background music/::1736186548
+::res://EndMenu/::1736186548
+end_menu.gd::GDScript::-1::1736186548::0::1::::<>Control<>::
+end_menu.tscn::PackedScene::2088442490887064323::1736186548::0::1::::<><>::res://ASSIGNMENT/EndMenu/end_menu.gd
+::res://main_menu/::1736186548
+main_menu.gd::GDScript::-1::1736186548::0::1::::<>Control<>::
+main_menu.tscn::PackedScene::67604863932643653::1734405115::0::1::::<><>::res://main_menu/main_menu.gd<>uid://h51wa3eihr5n::::res://main_menu/Winter Minie.ttf
+::res://ninja character/::1736186548
+character_body_2d.gd::GDScript::-1::1736186548::0::1::::<>CharacterBody2D<>::
+character_body_2d.tscn::PackedScene::8898795189074787332::1736186548::0::1::::<><>::res://character/character_body_2d.gd<>uid://dnitdtukt63ho::::res://jump.png<>uid://bu6tjwh4tvn2w::::res://running 2.png<>uid://bjr57kulxml74::::res://stand still.png<>uid://covyjifvw5ho4::::res://running.png
+ninja_body.gd::GDScript::-1::1736186548::0::1::::<>CharacterBody2D<>::
+ninja_body.tscn::PackedScene::8615339139136226355::1736186548::0::1::::<><>::uid://bjr57kulxml74::::res://stand still.png<>res://character/ninja_body.gd<>uid://bu6tjwh4tvn2w::::res://running 2.png<>uid://c8jema0151ojd::::res://character/pixil-frame-0 (1).png<>uid://dnitdtukt63ho::::res://jump.png<>uid://covyjifvw5ho4::::res://running.png
+pixil-frame-0 (1).png::CompressedTexture2D::7107916944568293277::1736186548::1736187711::1::::<><>::
+::res://scenes/::1736186548
+game.tscn::PackedScene::6519264475751806041::1736186548::0::1::::<><>::uid://bisii2kpe88s3::::res://ASSIGNMENT/scenes/player.tscn<>uid://bfdis6ssr8bua::::res://ASSIGNMENT/assets/sprites/world_tileset.png<>uid://dgd83yu8i7rii::::res://ASSIGNMENT/scenes/platform.tscn<>uid://cmufmibfht7fa::::res://ASSIGNMENT/scenes/killzone.tscn
+killzone.tscn::PackedScene::5656720482583398290::1736186548::0::1::::<><>::res://ASSIGNMENT/script/killzone.gd
+ninja_body.tscn::PackedScene::5611890485637566487::1736186548::0::1::::<><>::
+platform.tscn::PackedScene::7588643202128136316::1736186548::0::1::::<><>::uid://dcxvwnm0bkl3v::::res://ASSIGNMENT/assets/sprites/platforms.png
+player.tscn::PackedScene::2985591688930517548::1736186548::0::1::::<><>::res://ASSIGNMENT/script/player.gd<>uid://brq2k8y1rauhf::::res://ASSIGNMENT/assets/sprites/knight.png
+slime.tscn::PackedScene::6197603541368564792::1736186548::0::1::::<><>::uid://dmquxcyfs5hsd::::res://ASSIGNMENT/assets/sprites/slime_purple.png<>uid://cmufmibfht7fa::::res://ASSIGNMENT/scenes/killzone.tscn
+::res://script/::1736186548
+collision_shape_2d.gd::GDScript::-1::1736186548::0::1::::<>CollisionShape2D<>::
+killzone.gd::GDScript::-1::1736186548::0::1::::<>Area2D<>::
+player.gd::GDScript::-1::1736186548::0::1::::<>CharacterBody2D<>::
