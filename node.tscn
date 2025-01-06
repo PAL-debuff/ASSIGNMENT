@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://ctqi4kaif7cwt"]
-
-[node name="Node" type="Node"]
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-autoplay = true
