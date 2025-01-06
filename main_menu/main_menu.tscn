@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=3 uid="uid://70pbhqijdbp"]
+[gd_scene load_steps=9 format=3 uid="uid://70pbhqijdbp"]
 
-[ext_resource type="FontFile" uid="uid://dxp43k1srst8x" path="res://Spritecoder_Regular.ttf" id="1_ikp3s"]
+[ext_resource type="Script" path="res://main_menu/main_menu.gd" id="1_1sg2p"]
+[ext_resource type="FontFile" uid="uid://h51wa3eihr5n" path="res://main_menu/Winter Minie.ttf" id="2_p4m6a"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5gm78"]
 
@@ -44,6 +45,7 @@ offset_top = -2.0
 offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_1sg2p")
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 1
@@ -63,8 +65,8 @@ layout_mode = 2
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("1_ikp3s")
-theme_override_font_sizes/font_size = 30
+theme_override_fonts/font = ExtResource("2_p4m6a")
+theme_override_font_sizes/font_size = 47
 theme_override_styles/focus = SubResource("StyleBoxEmpty_5gm78")
 theme_override_styles/hover = SubResource("StyleBoxFlat_i7tvu")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_linad")
@@ -77,8 +79,8 @@ layout_mode = 2
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("1_ikp3s")
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("2_p4m6a")
+theme_override_font_sizes/font_size = 32
 theme_override_styles/focus = SubResource("StyleBoxEmpty_vapeh")
 theme_override_styles/hover = SubResource("StyleBoxFlat_i7tvu")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_linad")
@@ -101,8 +103,8 @@ grow_vertical = 2
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_constants/shadow_offset_x = 8
 theme_override_constants/shadow_offset_y = 5
-theme_override_fonts/font = ExtResource("1_ikp3s")
-theme_override_font_sizes/font_size = 50
+theme_override_fonts/font = ExtResource("2_p4m6a")
+theme_override_font_sizes/font_size = 72
 text = "Ninja Adventure"
 horizontal_alignment = 1
 vertical_alignment = 1
